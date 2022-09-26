@@ -1,0 +1,16 @@
+[Unit]
+Description=Frp Server Service
+After=network.target
+
+[Service]
+Type=simple
+User=nobody
+Restart=on-failure
+RestartSec=5s
+ExecStart=/home/ec2-user/frps \
+  -c /home/ec2-user/frps/frps.ini
+LimitNOFILE=1048576
+
+[Install]
+WantedBy=multi-user.target
+

@@ -1,0 +1,8 @@
+2022/09/26 04:57:52 [I] [root.go:209] frps uses config file: frps.ini
+2022/09/26 04:57:52 [I] [service.go:151] plugin [port-manager] has been registered
+2022/09/26 04:57:52 [I] [service.go:151] plugin [user-manager] has been registered
+2022/09/26 04:57:52 [I] [service.go:194] frps tcp listen on 0.0.0.0:7000
+2022/09/26 04:57:52 [I] [service.go:204] frps kcp listen on udp 0.0.0.0:7000
+2022/09/26 04:57:52 [I] [service.go:278] nat hole udp service listen on 0.0.0.0:7001
+2022/09/26 04:57:52 [I] [service.go:293] Dashboard listen on 0.0.0.0:7500
+2022/09/26 04:57:52 [I] [root.go:218] frps started successfully
